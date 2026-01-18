@@ -1,0 +1,44 @@
+.cartPage {
+  padding: 40px;
+  margin: 50px 250px;
+}
+.cartPage h1 {
+  font-size: 36px;
+  color: #000000;
+  font-weight: 700;
+  padding-bottom: 37px;
+  border-bottom: 1px solid #ddd;
+}
+.content {
+  display: flex;
+  gap: 40px;
+}
+
+.items {
+  flex: 1;
+}
+
+.summary {
+  width: 300px;
+  background: #f9f9f9;
+  border-radius: 12px;
+  padding: 20px;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin: 20px 0;
+}
+
+.row {
+  font-size: 14px;
+  color: #555;
+}
+
+.total {
+  display: flex;
+  justify-content: space-between;
+  font-size: 18px;
+}

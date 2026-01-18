@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+.header {
+  width: 1920px;
+  height: 110px;
+  background-color: #3b3c3d;
+  display: flex;
+  justify-content: space-between;
+  padding: 43px 250px;
+}
+.nav a {
+  text-decoration: none;
+  margin: 0 64px;
+}
+h1 {
+  color: #ffff;
+}

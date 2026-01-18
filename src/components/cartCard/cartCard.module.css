@@ -1,0 +1,33 @@
+.item {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  background: #fafafa;
+  border-radius: 12px;
+  padding: 15px;
+  margin-bottom: 15px;
+}
+
+.item img {
+  width: 80px;
+}
+
+.info {
+  flex: 1;
+}
+
+.delete {
+  border: none;
+  background: #eee;
+  border-radius: 8px;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 100%;
+  width: 76px;
+  height: 76px;
+}
+.vector {
+  width: 25px;
+  height: 25px;
+  margin-left: -12px;
+}

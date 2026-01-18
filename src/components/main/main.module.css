@@ -1,0 +1,17 @@
+.main {
+  padding: 40px 250px;
+  background-color: #ffffff;
+}
+
+.title {
+  font-size: 32px;
+  font-weight: 700;
+  font-size: 36px;
+  margin: 82px 0 44px;
+}
+
+.products {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 40px;
+}
